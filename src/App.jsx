@@ -1,5 +1,7 @@
 import bgVideo from "./assets/earth-bg.mp4";
+import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Services } from "./components/Services/Services";
 
 export const App = () => {
     return (
@@ -14,7 +16,9 @@ export const App = () => {
                     <source src={bgVideo} type="video/mp4" />
                 </video>
                 <Navbar />
+                <Hero />
             </div>
+            <Services />
         </div>
     );
 };
