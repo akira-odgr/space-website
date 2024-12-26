@@ -14,9 +14,7 @@ export const Hero = () => {
                             fuga ab deserunt perferendis asperiores, officiis,
                             voluptatibus quia?
                         </p>
-                        <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200">
-                            Learn More
-                        </button>
+                        <button className="primary-button">Learn More</button>
                     </div>
                     <div></div>
                 </div>

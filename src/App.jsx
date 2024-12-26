@@ -1,4 +1,6 @@
 import bgVideo from "./assets/earth-bg.mp4";
+import { Banner } from "./components/Banner/Banner";
+import { Banner2 } from "./components/Banner/Banner2";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Services } from "./components/Services/Services";
@@ -19,6 +21,8 @@ export const App = () => {
                 <Hero />
             </div>
             <Services />
+            <Banner />
+            <Banner2 />
         </div>
     );
 };
