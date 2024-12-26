@@ -10,6 +10,8 @@ export const Services = () => {
                         {serviceData.map((data) => (
                             <div
                                 key={data.id}
+                                data-aos="fade-up"
+                                data-aos-delay={data.aosDelay}
                                 className="bg-sky-900/60 rounded-xl backdrop-blur-sm flex flex-col justify-center items-center min-h-[180px] text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto"
                             >
                                 {data.icon}

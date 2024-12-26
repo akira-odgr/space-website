@@ -6,15 +6,23 @@ export const Hero = () => {
             <div className="flex justify-center items-center h-full">
                 <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-4 max-w-[700px]">
-                        <h1 className="text-5xl font-bold">Orbite The Earth</h1>
-                        <p>
+                        <h1 data-aos="fade-up" className="text-5xl font-bold">
+                            Orbite The Earth
+                        </h1>
+                        <p data-aos="fade-up" data-aos-delay="300">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Dicta mollitia ad eaque adipisci cum minus
                             molestias maiores! Fugiat quibusdam amet in natus
                             fuga ab deserunt perferendis asperiores, officiis,
                             voluptatibus quia?
                         </p>
-                        <button className="primary-button">Learn More</button>
+                        <button
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                            className="primary-button"
+                        >
+                            Learn More
+                        </button>
                     </div>
                     <div></div>
                 </div>

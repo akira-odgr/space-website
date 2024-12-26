@@ -1,4 +1,4 @@
-import { FaReact } from "react-icons/fa6";
+import { FaReact, FaShuttleSpace, FaSpaceAwesome } from "react-icons/fa6";
 
 export const serviceData = [
     {
@@ -11,18 +11,18 @@ export const serviceData = [
     },
     {
         id: 2,
-        title: "HST",
-        content: "300-1500km",
+        title: "ISS",
+        content: "500-1500km",
         desc: "Used for astronomical observations, capturing stunning images of the universe",
-        icon: <FaReact className="text-7xl" />,
-        aosDelay: "300",
+        icon: <FaShuttleSpace className="text-7xl" />,
+        aosDelay: "500",
     },
     {
         id: 3,
-        title: "HST",
+        title: "GPS",
         content: "300-1500km",
         desc: "Used for astronomical observations, capturing stunning images of the universe",
-        icon: <FaReact className="text-7xl" />,
-        aosDelay: "300",
+        icon: <FaSpaceAwesome className="text-7xl" />,
+        aosDelay: "700",
     },
 ];
